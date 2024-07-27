@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+       
+}
+.main{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 201, 86);
+}
+.panel{
+    height:80%;
+    width:85%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.player{
+    height:50px;
+    background-color: rgb(13, 59, 13);
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 300px;
+}
+.ele{
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.box{
+    background-color: white;
+    font-size: 18px;
+    color: rgb(21, 58, 21);
+    padding: 5px;
+}
+.bottom{
+    height: calc(100%-50px);
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px ;
+}
+.bubble{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(9, 65, 9);
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(1, 32, 1);
+}
